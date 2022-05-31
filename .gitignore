@@ -1,0 +1,12 @@
+*.egg-info
+*.pot
+.tox/
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+build/
+db.sqlite3
+manage.py
+
