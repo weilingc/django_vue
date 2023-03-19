@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include(app.urls)),
     path('', TemplateView.as_view(template_name='index.html')), #route到index.html
+    path('booking/', TemplateView.as_view(template_name='booking.html')), #booking.html
 ]
